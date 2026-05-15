@@ -4,6 +4,7 @@ import PackagesSection from './sections/PackageSection';
 import DestinationSection from './sections/DestinationSection';
 import FAQSection from './sections/FAQSection';
 import FAQButton from './components/common/FAQButton';
+import ReviewSection from './sections/reviewSection';
 
 function App() {
   return (<>
@@ -13,6 +14,7 @@ function App() {
     <DestinationSection />
     <FAQSection />
     <FAQButton />
+    <ReviewSection />
   </>
 );
 }
