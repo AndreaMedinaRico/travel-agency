@@ -26,10 +26,6 @@ const Navbar = () => {
           </NavItem>
 
         </ul>
-
-        <button className="rounded-full bg-black px-5 py-2 text-white transition hover:bg-slate-800">
-          Book Now
-        </button>
       </nav>
     </header>
   );
