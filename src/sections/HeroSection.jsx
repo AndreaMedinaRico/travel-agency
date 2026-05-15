@@ -25,16 +25,6 @@ const HeroSection = () => {
         <p className="mb-8 text-lg text-white/90 md:text-xl">
           Una forma fácil y rápida de tener todo listo para tu viaje.
         </p>
-
-        <button
-          className="
-            rounded-full bg-white px-8 py-4
-            font-semibold text-black
-            transition hover:scale-105
-          "
-        >
-          Explora tu próximo destino
-        </button>
       </div>
     </section>
   );

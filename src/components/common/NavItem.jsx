@@ -1,9 +1,12 @@
 const NavItem = ({ href, children }) => {
   return (
-    <li>
+    <li className="flex items-center justify-center">
       <a
         href={href}
-        className="text-slate-600 transition hover:text-black"
+        className="
+          font-medium text-[#13203e]
+          transition hover:text-blue-800
+        "
       >
         {children}
       </a>

@@ -1,14 +1,23 @@
+import { User } from 'lucide-react';
 import NavItem from '../common/NavItem';
 
 const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 z-50 w-full backdrop-blur-md">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <h1 className="text-2xl font-bold text-slate-800">
-          TravelInc
-        </h1>
+    <header
+      className="
+        fixed top-0 z-50 w-full backdrop-blur-md
+      "
+    >
+      <nav className="mx-auto flex h-20 max-w-5xl items-center justify-end pl-20">
+        {/* Logo */}
+        <div className="w-100">
+          <h1 className="text-2xl font-bold text-[#13203e]">
+            Travel.Inc
+          </h1>
+        </div>
 
-        <ul className="hidden gap-8 md:flex">
+        {/* Links */}
+        <ul className="    absolute left-1/2 -translate-x-1/2 flex items-center gap-10">
           <NavItem href="paquetes">
             Paquetes
           </NavItem>
@@ -24,8 +33,21 @@ const Navbar = () => {
           <NavItem href="acercade">
             Acerca de nosotros
           </NavItem>
-
         </ul>
+
+        {/* Icon */}
+        <div className="flex w-120 justify-end">
+          <button
+            aria-label="Perfil"
+            className="
+              rounded-full  p-3
+              text-[#13203e]
+              transition hover:bg-slate-100
+            "
+          >
+            <User size={20} />
+          </button>
+        </div>
       </nav>
     </header>
   );
