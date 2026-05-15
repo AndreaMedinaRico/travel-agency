@@ -12,6 +12,7 @@ function App() {
   return (<>
     <Navbar />
     <HeroSection />
+    <div className="h-40" />
     <PackagesSection />
     <DestinationSection />
     <FAQSection />
