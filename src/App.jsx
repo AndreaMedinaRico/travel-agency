@@ -14,6 +14,7 @@ function App() {
     <HeroSection />
     <div className="h-40" />
     <PackagesSection />
+    <div className="h-40" />
     <DestinationSection />
     <FAQSection />
     <FAQButton />

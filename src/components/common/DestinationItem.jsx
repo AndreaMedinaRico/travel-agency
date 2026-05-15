@@ -1,6 +1,12 @@
 const DestinationItem = ({ title, image }) => {
   return (
-    <article className="overflow-hidden rounded-3xl">
+    <article
+      className="
+        overflow-hidden rounded-3xl
+        shadow-lg transition duration-300
+        hover:-translate-y-2 hover:shadow-2xl
+      "
+    >
       <div className="relative h-112.5">
         <img
           src={image}

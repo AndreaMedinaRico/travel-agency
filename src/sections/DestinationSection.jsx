@@ -7,20 +7,19 @@ import 'swiper/css/pagination';
 
 import DestinationItem from '../components/common/DestinationItem';
 import { destinationsData } from '../data/destinationsData';
+import SectionHeader from '../components/common/SectionHeader';
 
 const DestinationSection = () => {
   return (
-    <section id="destinations" className="bg-white px-6 py-24">
-      <div className="mx-auto max-w-7xl">
-        <div className="mb-14 text-center">
-          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-slate-500">
-            Destinos
-          </p>
+    <section id="destinations" className="px-24 mt-64 flex items-center justify-center"
+      style={{ backgroundColor: '#E6F9FF' }}>
 
-          <h2 className="text-4xl font-bold text-slate-900">
-            Explora lugares increíbles
-          </h2>
-        </div>
+      <div className="mx-auto max-w-7xl px-6">
+        <SectionHeader
+          subtitle="Destinos turísticos"
+          title="Explora los destinos más populares"
+        />
+        <div className="h-20" />
 
         <Swiper
           modules={[Navigation, Pagination]}
@@ -30,7 +29,7 @@ const DestinationSection = () => {
           slidesPerView={1}
           breakpoints={{
             768: {
-              slidesPerView: 2,
+              slidesPerView: 3,
             },
           }}
           aria-label="Carrusel de destinos turísticos"
