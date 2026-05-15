@@ -3,7 +3,7 @@ import { reviewsData } from '../data/reviewsData';
 
 const ReviewSection = () => { 
   return (
-    <section className="bg-white px-6 py-24">
+    <section id="reviews" className="bg-white px-6 py-24">
       <div className="mx-auto max-w-7xl">
         <div className="mb-14 text-center">
           <p className="mb-3 text-sm uppercase tracking-[0.3em] text-slate-500">

@@ -9,10 +9,10 @@ const PackageCard = ({
   return (
     <article
       className="
-        overflow-hidden rounded-3xl bg-white
+        overflow-hidden rounded-3xl
         shadow-lg transition duration-300
-        hover:-translate-y-2 hover:shadow-2xl
-      "
+        hover:-translate-y-2 hover:shadow-2xl"
+        style={{ backgroundColor: '#FFFEF6' }}
     >
       <img
         src={image}

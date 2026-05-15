@@ -4,13 +4,14 @@ import { packagesData } from '../data/packagesData';
 const PackagesSection = () => {
   return (
     <section
-      id="destinations"
-      className="bg-slate-50 px-6 py-24"
+      id="packages"
+      className="px-24 py-24 flex items-center justify-center"
+      style={{ backgroundColor: '#E6F9FF' }}
     >
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-14 text-center">
-          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-slate-500">
-            Travel Packages
+          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-[#13203e]">
+            Paquetes de viaje
           </p>
 
           <h2 className="text-4xl font-bold text-slate-900">

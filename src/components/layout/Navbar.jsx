@@ -18,19 +18,19 @@ const Navbar = () => {
 
         {/* Links */}
         <ul className="    absolute left-1/2 -translate-x-1/2 flex items-center gap-10">
-          <NavItem href="paquetes">
+          <NavItem href="#packages">
             Paquetes
           </NavItem>
 
-          <NavItem href="destinos">
+          <NavItem href="#destinations">
             Destinos
           </NavItem>
 
-          <NavItem href="opiniones">
+          <NavItem href="#reviews">
             Opiniones
           </NavItem>
 
-          <NavItem href="acercade">
+          <NavItem href="#about">
             Acerca de nosotros
           </NavItem>
         </ul>
