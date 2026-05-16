@@ -7,10 +7,8 @@ const ReviewCard = ({
 }) => {
   return (
     <article
-      className="
-        rounded-3xl bg-white p-6 shadow-lg
-        transition hover:-translate-y-1
-      "
+      className="rounded-3xl bg-white p-6 shadow-lg"
+      style={{ backgroundColor: '#FFFEF6', padding: '1rem' }}
     >
       <div className="mb-5 flex items-center gap-4">
         <img

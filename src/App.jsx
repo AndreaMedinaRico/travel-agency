@@ -11,15 +11,19 @@ import Footer from './components/layout/Footer';
 function App() {
   return (<>
     <Navbar />
+    <FAQButton />
+
     <HeroSection />
     <div className="h-40" />
     <PackagesSection />
     <div className="h-40" />
     <DestinationSection />
-    <FAQSection />
-    <FAQButton />
+    <div className="h-40" />
     <ReviewSection />
+    <div className="h-40" />
     <AboutSection />
+    <div className="h-40" />
+    <FAQSection />
     <Footer />
   </>
 );
