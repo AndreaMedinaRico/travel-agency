@@ -6,18 +6,18 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" px-6 py-16 text-white"
-      style={{ backgroundColor: '#13203e' }}>
+    <footer className="px-24 mt-64 flex items-center justify-center text-white" style={{ backgroundColor: '#13203e' }}>
       <div
         className="
           mx-auto grid max-w-7xl gap-12
+          text-center
           md:grid-cols-2 lg:grid-cols-4
         "
       >
         {/* Marca */}
         <div>
           <h2 className="mb-4 text-3xl font-bold">
-            TravelInc
+            Travel.Inc
           </h2>
 
           <p className="text-slate-400">
@@ -59,19 +59,19 @@ const Footer = () => {
           </h3>
 
           <ul className="space-y-4 text-slate-400">
-            <li className="flex items-center gap-3">
+            <li className="flex items-center justify-center gap-3">
               <Phone size={18} />
 
               <span>+52 442 123 4567</span>
             </li>
 
-            <li className="flex items-center gap-3">
+            <li className="flex items-center justify-center gap-3">
               <Mail size={18} />
 
               <span>contacto@travelinc.com</span>
             </li>
 
-            <li className="flex items-center gap-3">
+            <li className="flex items-center justify-center gap-3">
               <MapPin size={18} />
 
               <span>Querétaro, México</span>
