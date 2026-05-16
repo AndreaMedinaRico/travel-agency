@@ -1,8 +1,11 @@
+import AboutCard from '../components/common/AboutCard';
+
 const AboutSection = () => {
   return (
     <section
       id="about"
-      className="bg-slate-50 px-6 py-24"
+      className="px-6 py-24"
+      style={{ backgroundColor: '#E6F9FF'}}
     >
       <div
         className="
@@ -29,6 +32,8 @@ const AboutSection = () => {
             Creamos experiencias de viaje inolvidables
           </h2>
 
+          <div className="h-8"/>
+
           <p className="mb-6 text-lg text-slate-600">
             En TravelInc nos especializamos en diseñar
             viajes personalizados para familias, parejas
@@ -44,46 +49,27 @@ const AboutSection = () => {
             su viaje sin preocupaciones.
           </p>
 
+          <div className="h-6"/>
           <div className="grid gap-5 sm:grid-cols-2">
-            <div className="rounded-2xl bg-white p-5 shadow-md">
-              <h3 className="mb-2 font-bold text-slate-800">
-                +10 años
-              </h3>
+            <AboutCard
+              title="+10 años"
+              description="Creando experiencias memorables."
+            />
 
-              <p className="text-sm text-slate-600">
-                Creando experiencias memorables.
-              </p>
-            </div>
+            <AboutCard
+              title="Atención personalizada"
+              description="Viajes adaptados a cada cliente."
+            />
 
-            <div className="rounded-2xl bg-white p-5 shadow-md">
-              <h3 className="mb-2 font-bold text-slate-800">
-                Atención personalizada
-              </h3>
+            <AboutCard
+              title="Destinos exclusivos"
+              description="Experiencias únicas alrededor del mundo."
+            />
 
-              <p className="text-sm text-slate-600">
-                Viajes adaptados a cada cliente.
-              </p>
-            </div>
-
-            <div className="rounded-2xl bg-white p-5 shadow-md">
-              <h3 className="mb-2 font-bold text-slate-800">
-                Destinos exclusivos
-              </h3>
-
-              <p className="text-sm text-slate-600">
-                Experiencias únicas alrededor del mundo.
-              </p>
-            </div>
-
-            <div className="rounded-2xl bg-white p-5 shadow-md">
-              <h3 className="mb-2 font-bold text-slate-800">
-                Soporte continuo
-              </h3>
-
-              <p className="text-sm text-slate-600">
-                Acompañamiento antes y durante el viaje.
-              </p>
-            </div>
+            <AboutCard
+              title="Soporte continuo"
+              description="Acompañamiento antes y durante el viaje."
+            />
           </div>
         </div>
       </div>

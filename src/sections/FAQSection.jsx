@@ -1,22 +1,20 @@
 import FAQItem from '../components/common/FAQItem';
 import { faqData } from '../data/faqData';
+import SectionHeader from '../components/common/SectionHeader';
 
 const FAQSection = () => {
   return (
     <section
       id="faq"
-      className="bg-slate-50 px-6 py-24"
+      className="px-24 mt-64 flex items-center justify-center"
+      style={{ backgroundColor: '#E6F9FF' }}
     >
       <div className="mx-auto max-w-4xl">
-        <div className="mb-14 text-center">
-          <p className="mb-3 text-sm uppercase tracking-[0.3em] text-slate-500">
-            FAQ
-          </p>
-
-          <h2 className="text-4xl font-bold text-slate-900">
-            Preguntas frecuentes
-          </h2>
-        </div>
+        <SectionHeader
+          subtitle="Preguntas frecuentes"
+          title="Resuelve tus dudas antes de viajar"
+        />
+        <div className="h-20" />
 
         <div className="space-y-4">
           {faqData.map((faq) => (
@@ -26,7 +24,9 @@ const FAQSection = () => {
             />
           ))}
         </div>
+        <div className="h-20" />
       </div>
+      
     </section>
   );
 };

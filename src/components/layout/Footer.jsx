@@ -6,7 +6,8 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-950 px-6 py-16 text-white">
+    <footer className=" px-6 py-16 text-white"
+      style={{ backgroundColor: '#13203e' }}>
       <div
         className="
           mx-auto grid max-w-7xl gap-12

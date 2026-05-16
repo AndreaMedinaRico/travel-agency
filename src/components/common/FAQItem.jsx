@@ -7,8 +7,9 @@ const FAQItem = ({ question, answer }) => {
     <article
       className="
         rounded-2xl border border-slate-200
-        bg-white p-5 shadow-sm
+       p-5 shadow-sm
       "
+      style={{ backgroundColor: '#FFFEF6', padding: '1rem' }}
     >
       <button
         onClick={() => setIsOpen(!isOpen)}
